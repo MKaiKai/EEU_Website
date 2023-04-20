@@ -3,18 +3,14 @@
 @import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
 
 /* Components */
-@import url("components/navbar.css");
+@import url("components/navbar.scss");
 @import url("components/banner.css");
 @import url("components/footer.css");
 
 
-body {
-  width: 100%;
-  height: 100%;
-  padding: 0px;
-  margin: 0px;
-  font-family: "Open Sans", "Helvetica", "sans-serif";
-}
+
+
+body {}
 
 
 @media (max-width: 960px) {
