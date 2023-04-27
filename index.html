@@ -4,38 +4,230 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Aesthetic Health Clinic located in Houston,Texas">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Evolving & Emerging U </title>
+
+  <title>Evolving & Emerging U, PLLC</title>
+  <!-- Javascript / Bootstrat CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- "rendered" files -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- font links -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Splash&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- favicon links -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body>
-  <div class="Navbar">
-    <div class="navbar_EEUlogo">
-      <img src="images/EEU-logo.jpeg" alt="company logo of a lotus flower with an s-shaped stem ">
+<section class="home">
+  <!-- <header> -->
+  <!-- NAVIGATION BAR with dropdown-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="color: rgb(20, 165, 165); font-size: 16px;">
+    <div class="company-info">
+      <a href="index.html" alt="Link to home page">
+        <img src="images/EEU-logo.jpeg" alt="company logo" role="link"
+          style="height: 10vh; width: auto; padding-right: 24px;">
+      </a>
+      <p style="font-size: 28px; color:rgb(19, 134, 134); padding-top: 16px; padding-right: 32px; margin-right: 16px;">
+        <i>Evolving & Emerging U, PLLC</i>
+      </p>
     </div>
-    <div class="Navbar_Link"> Home </div>
-    <div class="Navbar_Link"> What to Expect </div>
-    <div class="Navbar_Link"> Services </div>
-    <div class="Navbar_Link"> About </div>
-    <div class="Navbar_Link"> FAQs </div>
-    <div class="Navbar_Link"> Contact </div>
-  </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon text-black"></span>
+    </button>
+    <div class="collapse navbar-collapse ms-4" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"
+        style="padding-left: 2px; padding-right: 4px; color: rgb(0, 0, 0); font-weight: 500;">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="about.html">About</a>
+        </li>
+        <li class="dropdown active">
+          <a class="nav-link dropdown-toggle active" href="services.html" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="services.html#aesthetics">Aesthetics</a></li>
+            <hr class="dropdown-divider">
+            <li><a class="dropdown-item" href="services.html#hrt">Bio Hormone Replacement Therapy</a></li>
+            <hr class="dropdown-divider">
+            <li><a class="dropdown-item" href="services.html#weight-loss">Medical Weight Loss</a></li>
+            <hr class="dropdown-divider">
+            <li><a class="dropdown-item" href="services.html#iv_therapies">IV Nutritional Therapy</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="expectations.html">What to Expect</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="faq.html">FAQs</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+    </div>
+    <li class="nav-item my-2" style="list-style: none; margin-right: 16px;">
+      <a href="tel:3465418588" class="fa fa-phone" alt="office phone number"
+        style="font-size: 24px; text-decoration: none;"> 346-541-8588</a>
+    </li>
+  </nav>
+  <!-- </header> -->
 
-  <div class="container">
-    <div class="banner" style=" background-image: url('images/chair-ga1d6007ec_1920.jpg')">
-      <div class="banner-text">
-        <p class="companyName">Evolving & Emerging U </p>
-        <p class="info"> ~ COMING SOON ~ </p>
+  <body class="">
+    <!-- Background image -->
+    <div class="text-center bg-image" id="background"
+      style="background-image: url('images/background_blue.png');background-repeat: no-repeat; background-size: cover; background-position: center;"
+      alt="background image of blue blur">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="" style="color: #12557c;">
+          <h1 class="mb-3 p-2" id="main_tagline" style="">Let us be your guide to a healthier you.</h1>
+          <p class="mb-0" id="sub_tagline" style="color: #12557c;">
+            With customized treatment plans we meet all your wellness needs.</p>
+          <p id="sub_tagline" style="color: #044e79;">
+            Book your free 20 minute consultation now.</p>
+          <a class="btn btn-info btn-outline-light btn-lg m-2" id="consultation"
+            href="https://squareup.com/appointments/book/wb1qlk8lps6gg1/L2SH8CHFCAPAV/start" role="button"
+            alt="Button to schedule a consultation"> <i> Book a
+              consultation</i> </a>
+          <p class="mt-2" style="font-size: 8px;"></p>
+        </div>
       </div>
     </div>
+    <!-- Background image -->
 
-    <div class="generalMessage">
-      <p class="generalMessage-title">Our website is currently under construction.</p>
-      <p class="generalMessage">Thank you for your patience.</p>
-    </div>
-  </div>
-</body>
+    <!--Main layout-->
+    <main class="mt-5">
+      <div class="container">
+        <!--Section: Content-->
+        <section class="">
+          <h2 class="" style="font-size: 32px; color: #12557c; margin-right: 24px;"><i> Services </i></h2>
+          <hr class="mb-5">
+          <div class="row">
+            <div class="col-lg-3 col-md-12 mb-4">
+
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="images/updated/face2.png" class="img-fluid"
+                    alt="close-up photo of an African-American young woman's face with flawless skin" />
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title" style="font-size: 18px;">Aesthetics</h3>
+                  <a href="services.html#aesthetics" alt="link to aesthetics section of the service's page"
+                    class="btn btn-primary mb-1" id="details"> Details </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="images/main/HRToption2.jpg" class="img-fluid"
+                    alt="photo of the words HRT Hormone Replacment spelled out on a small office marquee" />
+                </div>
+                <div class="card-body" id="bhrt">
+                  <h4 class="card-title mb-3" id="bhrt-text" style="font-size: 16px;">Bio Hormone Replacement Therapy
+                  </h4>
+                  <a href="services.html#hrt"
+                    alt="link to bio hormone replacement therapy section on the service's page" class="btn btn-primary"
+                    id="details">Details</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="images/main/weight.jpg" class="img-fluid"
+                    alt="photo of a white sticky note with diet plan written on it" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title mb-3" style="font-size: 18px;">Medical Weight Loss</h5>
+                  <a href="services.html#weight-loss" alt="link to medical weight loss section of the service's page"
+                    class="btn btn-primary" id="details"> Details </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="images/main/IV.jpg" class="img-fluid"
+                    alt="photo of a fruit-filled IV bag being squeezed by a white latex gloved hand" />
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title mb-1" style="font-size: 18px;">IV Nutritional Therapy</h6>
+                  <p class="card-text">
+                  </p>
+                  <a href="services.html#iv_therapies" alt="link to iv therapy section on the service's page"
+                    class="btn btn-primary" id="details">Details</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!--Section: Content-->
+    </main>
+
+    <!-- bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+  </body>
+
+  <footer class="">
+    <!-- Copyright -->
+    <table role="presentation" class="text-white justify-content-center align-items-center mt-2 p-3" id="footer"
+      style="background-color: #1871a4; font-size: 1em;">
+      <tr>
+        <td class="mt-2" role="presentation">
+          <span class="fa fa-globe"></span>
+          <span><a class="text-white" style="text-decoration: none; margin-left: 5px; margin-right: 32px;"
+              href="https://evolvingandemergingu.com/" alt="link to website's homepage">
+              Evolving & Emerging U, PLLC © 2023</a>
+          </span>
+          <span class="fa fa-paper-plane">
+            <a href="mailto:info@evolvingandemergingu.com" class="text-white" alt="company's email address"
+              style="text-decoration: none; margin-left: 5px; margin-right: 32px;">Contact Us</a>
+          </span>
+
+          <span class="fa fa-map-marker">
+            <a href="https://goo.gl/maps/R233NVZJTAjNTQdX7"
+              style="color: white; text-decoration: none; margin-left: 5px; margin-right: 32px;"> Office Location</a>
+          </span>
+
+          <span class="fa fa-phone" style="margin-left: 5px; margin-right: 32px;">
+            <a href="tel:3465418588" alt="office phone number" style="text-decoration: none; color: white;">(346)
+              541-8588 </a> </span>
+          <span> <a href="privacy.html" alt="link to company's privacy statement"
+              style="color: white; text-decoration: none; margin-left: 5px; margin-right: 32px; ">Privacy
+              Policy</a>
+          </span>
+          <span> <a href="accessiblity.html" alt="link to company's accessibility statement"
+              style="color: white; text-decoration: none; margin-left: 5px; margin-right: 32px;">Accessibility</a>
+          </span>
+        </td>
+      </tr>
+    </table>
+  </footer>
+</section>
 
 </html>
