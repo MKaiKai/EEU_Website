@@ -1,38 +1,260 @@
-/* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700");
-@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
-
-/* Components */
-@import url("components/navbar.scss");
-@import url("components/banner.css");
-@import url("components/footer.css");
-
-
-
-
-body {}
-
-
-@media (max-width: 960px) {
-
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
+.navbar {
+  color: rgb(20, 165, 165);
+  font-size: 16px;
 }
 
-@media (max-width: 720px) {
-
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
+.company-info {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-items: left;
 }
 
-@media (max-width: 540px) {
+#background {
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
 
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
+.bg-image {
+  padding: 8px;
+}
+
+#sub_tagline {
+  font-size: 22px;
+}
+
+#consultation {
+  background-color: #225894;
+  color: white;
+}
+
+#consultation:hover {
+  background-color: rgb(42, 128, 42);
+}
+
+#top {
+  border-radius: 12px;
+  background-color: #148080;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 8px;
+  width: 200px;
+}
+
+#top:hover,
+#top:focus {
+  color: #148080;
+  background-color: rgb(37, 175, 125);
+}
+
+
+#bhrt {
+  padding: 16.5px 8px;
+}
+
+#bhrt-text {
+  font-size: 17px;
+  margin: 0px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#img-profile {
+  width: 220px;
+  height: 220px;
+  font-style: italic;
+  border-radius: 50%;
+  margin-right: 200px;
+  margin-bottom: 24px;
+}
+
+blockquote {
+  font-size: 40px;
+}
+
+#emerson {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media(max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+
+  #background {
+    padding: 24px 8px;
+
+    main_tagline {
+      font-size: 32px;
+    }
+
+    sub_tagline {
+      font-size: 28px;
+    }
+  }
+
+  .bg-image {
+    padding: 16px;
+  }
+
+  .card {
+    width: 85%;
+  }
+
+  #details {
+    width: 180px;
+    font-size: 18px;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+
+  #img-profile {
+    width: 220px;
+    height: 220px;
+    font-style: italic;
+    border-radius: 50%;
+    margin-right: 200px;
+    margin-bottom: 24px;
+  }
+
+  blockquote {
+    font-size: 24px;
+  }
+
+  figcaption {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+  }
+
+  #emerson {
+    font-size: 22px;
+  }
+
+
+
+  .footer {
+    grid-column: 1/ 2;
+    grid-row: 3;
+  }
+
+}
+
+@media(max-width: 576px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  #main_tagline {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+
+  #sub_tagline {
+    font-size: 18px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  #details {
+    width: 180px;
+    font-size: 18px;
+  }
+
+  .profile {
+    font-size: 24px;
+    display: block;
+  }
+
+  #emerson {
+    font-size: 28px;
+  }
+
+  .footer {
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px;
+  }
+
+}
+
+@media(max-width: 375px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  #background {
+    padding: 16px 8px;
+  }
+
+  #main_tagline {
+    font-size: 22px;
+    margin-bottom: 0px;
+  }
+
+  #sub_tagline {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .bg-image {
+    padding: 16px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  #details {
+    width: 200px;
+    font-size: 18px;
+  }
+
+  #emerson {
+    font-size: 18px;
+  }
+
+  /* 
+  .container-companycontact {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+  } */
+
+  #footer {
+    grid-column: 1 / 2;
+    grid-row: 1;
   }
 }
