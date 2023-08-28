@@ -34,7 +34,7 @@
 
 #appointment {
   background-color: rgb(1, 174, 128);
-  color: white;
+  color: rgb(23, 22, 22);
 }
 
 #appointment:hover {
