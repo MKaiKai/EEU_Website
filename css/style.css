@@ -32,6 +32,15 @@
   background-color: rgb(42, 128, 42);
 }
 
+#appointment {
+  background-color: #ffcf21;
+  color: white;
+}
+
+#appointment:hover {
+  background-color: rgb(244, 158, 10);
+}
+
 #top {
   border-radius: 12px;
   background-color: #148080;
