@@ -29,16 +29,16 @@
 }
 
 #consultation:hover {
-  background-color: #5ea7fa;
+  background-color: #85bdfd;
 }
 
 #appointment {
-  background-color: rgb(1, 174, 128);
+  background-color: rgb(245, 153, 14);
   color: rgb(23, 22, 22);
 }
 
 #appointment:hover {
-  background-color: rgb(77, 212, 176);
+  background-color: rgb(245, 221, 14);
 }
 
 #top {
