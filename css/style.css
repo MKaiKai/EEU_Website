@@ -33,12 +33,12 @@
 }
 
 #appointment {
-  background-color: rgb(245, 153, 14);
+  background-color: rgb(245, 221, 14);
   color: rgb(23, 22, 22);
 }
 
 #appointment:hover {
-  background-color: rgb(245, 221, 14);
+  background-color: rgb(245, 153, 14);
 }
 
 #top {
